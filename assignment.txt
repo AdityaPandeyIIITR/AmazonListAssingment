@@ -1,6 +1,6 @@
 # **SalesDuo Intern** Assignment Reference Document Text
 
----
+--
 
 This assignment requires you to build a small web application that leverages an AI model (such as Gemini, OpenAI, or similar) to optimize Amazon product listings. The app will fetch product details based on an Amazon Standard Identification Number (ASIN), use AI to generate improved content, display comparisons in the UI, and store optimization history in a database.
 
