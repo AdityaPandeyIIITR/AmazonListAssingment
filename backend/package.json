@@ -1,0 +1,37 @@
+{
+  "name": "amazon-listing-optimizer-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "drizzle:generate": "drizzle-kit generate --config=drizzle.config.ts",
+    "drizzle:push": "drizzle-kit push --config=drizzle.config.ts",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "axios": "^1.7.7",
+    "cheerio": "^1.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.33.0",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0",
+    "puppeteer": "^23.6.0",
+    "mysql2": "^3.15.2",
+    "winston": "^3.13.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.24.2",
+    "eslint": "^9.11.1",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^17.10.3",
+    "eslint-plugin-promise": "^6.4.0",
+    "nodemon": "^3.1.7"
+  }
+}
